@@ -73,7 +73,7 @@ sudo yum -y remove git*
 sudo yum -y install epel-release  
 sudo yum -y groupinstall "Development Tools"  
 sudo yum -y install wget perl-CPAN gettext-devel perl-devel  openssl-devel  zlib-devel curl-devel expat-devel  getopt asciidoc xmlto docbook2X  
-sudo ln -s /usr/bin/db2x_docbook2texi /usr/bin/docbook2x-texi    
+sudo ln -s /usr/bin/db2x_docbook2texi /usr/bin/docbook2x-texi  
 
 2.  
 sudo yum -y install wget curl  
