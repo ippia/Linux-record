@@ -56,6 +56,15 @@ sudo yum install -y devtoolset-11-toolchain
 &ensp;&ensp;&ensp;&ensp;&ensp;echo "source /opt/rh/devtoolset-9/enable" >> /etc/profile  
 &ensp;&ensp;&ensp;&ensp;&ensp;source /etc/profile  
 
+#Install Latest Git ( Git 2.x ) on CentOS 7 / RHEL 7  
+1.git --version  
+2.  
+sudo yum -y remove git  
+sudo yum -y remove git-*  
+
+3.sudo yum -y install https://packages.endpointdev.com/rhel/7/os/x86_64/endpoint-repo.x86_64.rpm  
+
+4.sudo yum install git
 
 
 
