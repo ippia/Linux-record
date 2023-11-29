@@ -12,6 +12,11 @@ PS:
 
 
 ## CentOS7 安装GCC 11
+来源：  
+https://blog.csdn.net/weixin_53213086/article/details/128063036  
+  
+https://www.cnblogs.com/codeRhythm/p/13906360.html#:~:text=%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85%20sudo%20yum%20install%20-y%20centos-release-scl%20sudo%20yum,install%20-y%20devtoolset-9-gcc%20devtoolset-9-gcc-c%2B%2B%20%23%20%E5%AE%89%E8%A3%85%E4%BA%86%E4%B9%8B%E5%90%8E%2C%E5%B9%B6%E6%B2%A1%E6%9C%89%E6%9B%BF%E6%8D%A2%E6%97%A7%E7%9A%84%2C%E6%89%80%E4%BB%A5%E8%BF%99%E9%87%8C%E9%80%89%E6%8B%A9%E8%BF%9E%E6%8E%A5%E5%88%B0%E6%9C%80%E6%96%B0%E7%9A%84gcc%2Fg%2B%2B%20echo%20%22s  
+  
 1.先卸载以前的旧版本  
 yum remove gcc  
 yum remove gdb  
