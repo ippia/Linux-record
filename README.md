@@ -57,6 +57,8 @@ sudo yum install -y devtoolset-11-toolchain
 &ensp;&ensp;&ensp;&ensp;&ensp;source /etc/profile  
 
 # Install Latest Git ( Git 2.x ) on CentOS 7 / RHEL 7  
+[Install Latest Git](https://computingforgeeks.com/install-git-2-on-centos-7/)  
+
 第一种：  
 1.git --version  
 2.  
@@ -75,8 +77,7 @@ sudo yum -y groupinstall "Development Tools"
 sudo yum -y install wget perl-CPAN gettext-devel perl-devel  openssl-devel  zlib-devel curl-devel expat-devel  getopt asciidoc xmlto docbook2X  
 sudo ln -s /usr/bin/db2x_docbook2texi /usr/bin/docbook2x-texi  
 
-2.
-sudo yum -y install wget curl  
+2.sudo yum -y install wget curl  
 export VER="v2.41.0"  
 wget https://github.com/git/git/archive/${VER}.tar.gz  
 tar -xvf ${VER}.tar.gz  
@@ -85,6 +86,6 @@ cd git-*
 make configure  
 sudo ./configure --prefix=/usr  
 sudo make  
-sudo make install
+sudo make install  
 
-4. git --version  
+3.git --version  
