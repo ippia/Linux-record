@@ -69,22 +69,22 @@ sudo yum -y remove git-*
 
 第二种：  
 1.  
-sudo yum -y remove git*
-sudo yum -y install epel-release
-sudo yum -y groupinstall "Development Tools"
-sudo yum -y install wget perl-CPAN gettext-devel perl-devel  openssl-devel  zlib-devel curl-devel expat-devel  getopt asciidoc xmlto docbook2X
-sudo ln -s /usr/bin/db2x_docbook2texi /usr/bin/docbook2x-texi  
+sudo yum -y remove git*  
+sudo yum -y install epel-release  
+sudo yum -y groupinstall "Development Tools"  
+sudo yum -y install wget perl-CPAN gettext-devel perl-devel  openssl-devel  zlib-devel curl-devel expat-devel  getopt asciidoc xmlto docbook2X  
+sudo ln -s /usr/bin/db2x_docbook2texi /usr/bin/docbook2x-texi    
 
 2.
-sudo yum -y install wget curl
-export VER="v2.41.0"
-wget https://github.com/git/git/archive/${VER}.tar.gz
-tar -xvf ${VER}.tar.gz
-rm -f ${VER}.tar.gz
-cd git-*
-make configure
-sudo ./configure --prefix=/usr
-sudo make
-sudo make install
+sudo yum -y install wget curl  
+export VER="v2.41.0"  
+wget https://github.com/git/git/archive/${VER}.tar.gz  
+tar -xvf ${VER}.tar.gz  
+rm -f ${VER}.tar.gz  
+cd git-*  
+make configure  
+sudo ./configure --prefix=/usr  
+sudo make  
+sudo make install  
 
-3. git --version
+3. git --version  
