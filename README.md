@@ -34,13 +34,13 @@ yum list all --enablerepo='centos-sclo-rh' | grep "devtoolset"
 sudo yum install -y devtoolset-11-toolchain  
 
 6.配置环境变量,在/etc/profile文件末尾添加如下的代码  
-  第一种：
-    PATH=$PATH::/opt/rh/devtoolset-11/root/usr/bin  
-    export PATH  
-    sudo scl enable devtoolset-11 bash  
-  第二种：
-    echo "source /opt/rh/devtoolset-9/enable" >> /etc/profile  
-    source /etc/profile  
+&ensp;&ensp;第一种：
+&ensp;&ensp;&ensp;&ensp;PATH=$PATH::/opt/rh/devtoolset-11/root/usr/bin  
+&ensp;&ensp;&ensp;&ensp;export PATH  
+&ensp;&ensp;&ensp;&ensp;sudo scl enable devtoolset-11 bash  
+&ensp;&ensp;第二种：
+&ensp;&ensp;&ensp;&ensp;echo "source /opt/rh/devtoolset-9/enable" >> /etc/profile  
+&ensp;&ensp;&ensp;&ensp;source /etc/profile  
 
 
 
