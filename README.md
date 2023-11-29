@@ -11,7 +11,8 @@ tar -xvf cmake-xx.tar.gz
 mv cmake-xx /usr/local/cmake  
 
 4.写入终端环境并更新:   
-echo 'export PATH="/usr/local/cmake/bin:$PATH"' >> ~/.bashrc source ~/.bashrc  
+echo 'export PATH="/usr/local/cmake/bin:$PATH"' >> ~/.bashrc  
+source ~/.bashrc  
 
 5.cmake --version  
 
