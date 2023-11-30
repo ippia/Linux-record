@@ -53,7 +53,7 @@ sudo yum install -y devtoolset-11-toolchain
 &ensp;&ensp;&ensp;&ensp;&ensp;export PATH  
 &ensp;&ensp;&ensp;&ensp;&ensp;sudo scl enable devtoolset-11 bash  
 &ensp;&ensp;&ensp;第二种：  
-&ensp;&ensp;&ensp;&ensp;&ensp;echo "source /opt/rh/devtoolset-9/enable" >> /etc/profile  
+&ensp;&ensp;&ensp;&ensp;&ensp;echo "source /opt/rh/devtoolset-11/enable" >> /etc/profile  
 &ensp;&ensp;&ensp;&ensp;&ensp;source /etc/profile  
 
 # Install Latest Git ( Git 2.x ) on CentOS 7 / RHEL 7  
